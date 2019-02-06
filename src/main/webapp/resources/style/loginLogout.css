@@ -1,0 +1,72 @@
+.errorblock {
+    color: #ff0000;
+    background-color: #ffEEEE;
+    border: 3px solid #ff0000;
+    padding: 8px;
+    margin: 16px;
+}
+
+.logo {
+    width: 100%;
+    height: 250px;
+    background: url("../images/managerLogin.png")  center no-repeat;
+}
+
+.successfulLogout {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    color: #eee8e8;
+}
+
+.btn-login {
+    color: #3E4E51;
+    background-color: #eee8e8;
+    border-color: #eee8e8;
+}
+
+.btn-login:hover,
+.btn-login:focus,
+.btn-login:active,
+.btn-login.active,
+.open .dropdown-toggle.btn-login {
+    color: #3E4E51;
+    background-color: #FFF;
+    border-color: #eee8e8;
+}
+
+.btn-login:active,
+.btn-login.active,
+.open .dropdown-toggle.btn-login {
+    background-image: none;
+}
+
+.btn-login.disabled,
+.btn-login[disabled],
+fieldset[disabled] .btn-login,
+.btn-login.disabled:hover,
+.btn-login[disabled]:hover,
+fieldset[disabled] .btn-login:hover,
+.btn-login.disabled:focus,
+.btn-login[disabled]:focus,
+fieldset[disabled] .btn-login:focus,
+.btn-login.disabled:active,
+.btn-login[disabled]:active,
+fieldset[disabled] .btn-login:active,
+.btn-login.disabled.active,
+.btn-login[disabled].active,
+fieldset[disabled] .btn-login.active {
+    background-color: #eee8e8;
+    border-color: #eee8e8;
+}
+
+.btn-login .badge {
+    color: #eee8e8;
+    background-color: #3E4E51;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
+    border-color: #eee8e8;
+    box-shadow: 0 1px 1px #eee8e8 inset, 0 0 8px #eee8e8;
+    outline: 0 none;
+}
